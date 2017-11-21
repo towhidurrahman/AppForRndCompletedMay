@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tuhinthegreat.appforrndcompletedmay.MobileInfoandWebservice">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Mobile Manufacturer :"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:id="@+id/manufacturer"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Mobile Model :"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:id="@+id/model"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Mobile ID :"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:id="@+id/mobileid"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Mobile IMEI :"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:id="@+id/imei"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="GMail ID :"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:id="@+id/gmailid"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Refresh"
+            android:onClick="btnRefreshClick"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Insert"
+            android:onClick="btnInsertClick"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

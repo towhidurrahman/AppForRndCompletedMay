@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tuhinthegreat.appforrndcompletedmay.LandingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-1-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="btnLocationClick"
+                android:text="Location" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-2-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="btnDBActionClick"
+                android:text="DB Action" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-3-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Webservice"
+                android:onClick="btnWebserviceClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-4-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Background Srvc"
+                android:onClick="btnBackgroundServiceClick"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-5-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="btnMaptoJsonclick"
+                android:text="Map with Json"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-6-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Box6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-7-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Box7"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-8-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Box8"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="100dp">
+
+            <!--box-9-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Box9"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
